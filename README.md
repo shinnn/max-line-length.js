@@ -9,7 +9,7 @@
 Get maximum line length of a string
 
 ```javascript
-lineLength('aaaaaaaa\naaaaaaaaaaaaaaaaaa\r\naaaa\n'); //=> 18
+maxLineLength('aaaaaaaa\naaaaaaaaaaaaaaaaaa\r\naaaa\n'); //=> 18
 ```
 
 ## Installation
@@ -31,7 +31,7 @@ bower install max-line-length
 #### [Duo](http://duojs.org/)
 
 ```javascript
-var lineLength = require('shinnn/max-line-length.js');
+var maxLineLength = require('shinnn/max-line-length.js');
 ```
 
 ### Standalone
@@ -40,7 +40,7 @@ var lineLength = require('shinnn/max-line-length.js');
 
 ## API
 
-### lineLength(*string*)
+### maxLineLength(*string*)
 
 *string*: `String`  
 Return: `Array` of `Number`
@@ -48,9 +48,9 @@ Return: `Array` of `Number`
 It returns length of the longest line in a string. "Line" means each part of a string splitted by `\n` and `\r\n`.
 
 ```javascript
-lineLength('one\nanother'); //=> 7
-lineLength('\r\n'); //=> 0
-lineLength(''); //=> 0
+maxLineLength('one\nanother'); //=> 7
+maxLineLength('\r\n'); //=> 0
+maxLineLength(''); //=> 0
 ```
 
 ## License
