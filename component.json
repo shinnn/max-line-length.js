@@ -1,0 +1,22 @@
+{
+  "name": "max-line-length",
+  "version": "1.0.0",
+  "repository": "shinnn/max-line-length.js",
+  "description": "Get maximum line length of a string",
+  "keywords": [
+    "string",
+    "line",
+    "length",
+    "max",
+    "maximum",
+    "number"
+  ],
+  "main": "max-line-length-cjs.js",
+  "scripts": [
+    "max-line-length-cjs.js"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "shinnn/line-length.js": "*"
+  }
+}

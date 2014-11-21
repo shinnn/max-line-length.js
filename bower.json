@@ -1,0 +1,40 @@
+{
+  "name": "max-line-length",
+  "description": "Get maximum line length of a string",
+  "keywords": [
+    "string",
+    "line",
+    "length",
+    "max",
+    "maximum",
+    "number"
+  ],
+  "main": "./max-line-length.js",
+  "homepage": "https://github.com/shinnn/max-line-length.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shinnn/max-line-length.js.git"
+  },
+  "authors": [
+    {
+      "name": "Shinnosuke Watanabe",
+      "url": "https://github.com/shinnn"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "line-length": "~1.0.0"
+  },
+  "ignore": [
+    "**/.*",
+    "*.yml",
+    "bower_components",
+    "components",
+    "coverage",
+    "node_modules",
+    "max-line-length-cjs.js",
+    "test.js",
+    "package.json",
+    "component.json"
+  ]
+}
