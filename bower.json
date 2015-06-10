@@ -21,7 +21,7 @@
       "url": "https://github.com/shinnn"
     }
   ],
-  "license": "MIT",
+  "license": "Unlicense",
   "dependencies": {
     "line-length": "~1.0.0"
   },

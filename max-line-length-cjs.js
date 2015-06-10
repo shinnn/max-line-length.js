@@ -1,8 +1,3 @@
-/*!
- * max-line-length | MIT (c) Shinnosuke Watanabe
- * https://github.com/shinnn/max-line-length.js
-*/
-
 var lineLength = require('line-length');
 
 module.exports = function maxLineLength() {
