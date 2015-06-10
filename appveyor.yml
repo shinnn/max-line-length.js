@@ -11,8 +11,8 @@ install:
   - npm install --production
   - npm install require-bower-files tape
   - npm install -g bower
-  - bower install
+  - bower install --production
 
 build: off
 
-test_script: node test.js
+test_script: node --harmony_arrow_functions test.js
