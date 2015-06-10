@@ -7,9 +7,9 @@
     "max-line-length-cjs.js"
   ],
   "scripts": {
-    "pretest": "eslint *.js & jscs *.js && bower install",
     "test": "node test.js",
     "coverage": "istanbul cover test.js",
+    "pretest": "eslint --config node_modules/@shinnn/eslintrc/rc.json --ignore-path .gitignore . && bower install",
     "coveralls": "${npm_package_scripts_coverage} && istanbul-coveralls"
   },
   "author": "Shinnosuke Watanabe && https://github.com/shinnn",
