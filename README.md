@@ -1,10 +1,12 @@
 # max-line-length.js
 
+[![NPM version](https://img.shields.io/npm/v/max-line-length.svg)](https://www.npmjs.com/package/max-line-length)
+[![Bower version](https://img.shields.io/bower/v/max-line-length.svg)](https://github.com/shinnn/max-line-length.js/releases)
 [![Build Status](https://travis-ci.org/shinnn/max-line-length.js.svg?branch=master)](https://travis-ci.org/shinnn/max-line-length.js)
 [![Build status](https://ci.appveyor.com/api/projects/status/bh7o4q3n2bah47le?svg=true)](https://ci.appveyor.com/project/ShinnosukeWatanabe/max-line-length-js)
-[![Coverage Status](https://img.shields.io/coveralls/shinnn/max-line-length.js.svg)](https://coveralls.io/r/shinnn/max-line-length.js)
-[![Dependency Status](https://david-dm.org/shinnn/max-line-length.js.svg)](https://david-dm.org/shinnn/max-line-length.js)
-[![devDependency Status](https://david-dm.org/shinnn/max-line-length.js/dev-status.svg)](https://david-dm.org/shinnn/max-line-length.js#info=devDependencies)
+[![Coverage Status](https://img.shields.io/coveralls/shinnn/max-line-length.js.svg?label=cov)](https://coveralls.io/r/shinnn/max-line-length.js)
+[![Dependency Status](https://img.shields.io/david/shinnn/max-line-length.js.svg?label=deps)](https://david-dm.org/shinnn/max-line-length.js)
+[![devDependency Status](https://img.shields.io/david/dev/shinnn/max-line-length.js.svg?label=devDeps)](https://david-dm.org/shinnn/max-line-length.js#info=devDependencies)
 
 Get maximum line length of a string
 
@@ -16,22 +18,16 @@ maxLineLength('aaaaaaaa\naaaaaaaaaaaaaaaaaa\r\naaaa\n'); //=> 18
 
 ### Package managers
 
-#### [npm](https://www.npmjs.org/) [![NPM version](https://badge.fury.io/js/max-line-length.svg)](https://www.npmjs.org/package/max-line-length)
+#### [npm](https://www.npmjs.com/)
 
-```sh
+```
 npm install max-line-length
 ```
 
-#### [Bower](http://bower.io/) [![Bower version](https://badge.fury.io/bo/max-line-length.svg)](https://github.com/shinnn/max-line-length.js/releases)
+#### [Bower](http://bower.io/)
 
-```sh
-bower install max-line-length
 ```
-
-#### [Duo](http://duojs.org/)
-
-```javascript
-var maxLineLength = require('shinnn/max-line-length.js');
+bower install max-line-length
 ```
 
 ### Standalone
